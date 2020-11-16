@@ -6,7 +6,7 @@
 #include "Filme.hpp"
 
 class FilmeComplemento : public Filme {
-protected:
+private:
     string complemento;
 public:
     FilmeComplemento(string n = "", string c = "") ;

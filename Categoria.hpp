@@ -10,7 +10,7 @@
 using namespace std;
 
 class Categoria {
-protected:
+private:
     string nome;
     int ano;
     int tipo; // 0 = normal, 1 = +complemento
